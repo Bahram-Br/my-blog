@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Bahram Bahtiyar — questions about web development, Java, Python, HTML, or CSS.">
+    <title>Contact | BHRM</title>
+    <link rel="icon" href="images/BHRM.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="homeai.html" class="brand-link">
+            <img src="images/BHRM.png" class="logo-img" alt="BHRM logo">
+            <div class="brand-text">
+                <span class="brand-title">Bahram · BHRM</span>
+                <span class="brand-tagline">Web Developer · Student</span>
+            </div>
+        </a>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="homeai.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutme.html">Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html" aria-current="page">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <button type="button" class="theme-toggle" id="themeToggle" aria-pressed="false">Light mode</button>
+    </header>
+
+    <main class="contact">
+        <section class="page-intro container-narrow">
+            <h2>Contact</h2>
+            <p class="text-muted">Questions about code, college, or this site — I would like to hear from you.</p>
+        </section>
+
+        <!-- Two-column layout: quick links left, form right (stacks on mobile — see .contact-layout) -->
+        <section class="container page-wrap">
+            <div class="contact-layout">
+                <aside class="card contact-aside">
+                    <h3>Reach me</h3>
+                    <p class="text-muted">Replace the placeholder email with your real address before you publish.</p>
+                    <ul class="contact-links">
+                        <!-- mailto: update href to your student or personal email -->
+                        <li><a href="mailto:your.email@example.com">Email me</a></li>
+                        <li><a href="education.html">Education &amp; skills</a></li>
+                        <li><a href="blog.html">Blog posts</a></li>
+                    </ul>
+                    <img src="images/contact.jpg" class="contact-img" alt="Contact illustration">
+                </aside>
+
+                <div>
+                    <p>
+                        We can discuss Java, Python, HTML, CSS, or Bootstrap.
+                        <strong>You are always welcome to send me a message.</strong>
+                    </p>
+                    <!-- Form is front-end only until you connect a backend or Formspree -->
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>Your details</legend>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="firstName" required><br>
+
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="lastName" required><br>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br>
+
+                            <label for="message">Message/Question:</label><br>
+                            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+                            <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-copy">© 2026 Bahram Bahtiyar</p>
+        <p class="footer-meta">Built with HTML, CSS &amp; Bootstrap</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="site.js"></script>
+</body>
+</html>

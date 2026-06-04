@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bahram Bahtiyar — Web Developer student at Columbus State Community College.">
+    <title>Home | BHRM</title>
+    <link rel="icon" href="images/BHRM.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Site header: brand block, nav, and theme toggle (see styles.css .site-header) -->
+    <header class="site-header">
+        <a href="homeai.html" class="brand-link">
+            <img src="images/BHRM.png" class="logo-img" alt="BHRM logo">
+            <div class="brand-text">
+                <span class="brand-title">Bahram · BHRM</span>
+                <span class="brand-tagline">Web Developer · Student</span>
+            </div>
+        </a>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="homeai.html" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutme.html">Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Theme toggle: saves preference in localStorage (see site.js) -->
+        <button type="button" class="theme-toggle" id="themeToggle" aria-pressed="false">Light mode</button>
+    </header>
+
+    <main class="home">
+        <section class="home-layout container-wide">
+            <div class="home-text">
+                <div class="card">
+                    <!-- Badge labels the Uyghur greeting without crowding the headline -->
+                    <span class="lang-badge">Native greeting</span>
+                    <h2 class="home-greeting">.ياخشى مۇسىز، خۇشكەپسىز</h2>
+                    <p class="home-hero-line">How are you? So glad to see you.</p>
+
+                    <p class="text-justify">
+                        My name is <strong>Bahram Bahtiyar</strong>.
+                        The line above is in my native language. It looks similar to Arabic, but the two languages
+                        are different in grammar and vocabulary.
+                        I am a Web Developer student at
+                        <strong><em>Columbus State Community College</em></strong>.
+                        Explore my <a href="aboutme.html">story</a>, <a href="education.html">education</a>,
+                        and <a href="blog.html">blog</a>.
+                    </p>
+
+                    <div class="quick-links">
+                        <a class="btn-link" href="aboutme.html">About me</a>
+                        <a class="btn-link" href="blog.html">Read blog</a>
+                        <a class="btn-link" href="contact.html">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Skills panel — update levels as you progress -->
+                <div class="card skills-panel">
+                    <h3>Skills I am building</h3>
+                    <ul class="skills-list">
+                        <li><span>HTML</span><span class="skill-level">Practicing</span></li>
+                        <li><span>CSS</span><span class="skill-level">Practicing</span></li>
+                        <li><span>Bootstrap</span><span class="skill-level">Learning</span></li>
+                        <li><span>Java</span><span class="skill-level">Learning</span></li>
+                        <li><span>Python</span><span class="skill-level">Exploring</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <img src="images/abtme5.JPG" class="home-img" alt="Bahram Bahtiyar">
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-copy">© 2026 Bahram Bahtiyar</p>
+        <p class="footer-meta">Built with HTML, CSS &amp; Bootstrap</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="site.js"></script>
+</body>
+
+</html>
